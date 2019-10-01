@@ -47,8 +47,156 @@
   font-style: normal;
 }
 
+body {
+  padding: 0;
+  margin: 0 auto;
+  font-family: 'Raleway-ExtraBold', sans-serif;
+  font-size: 18px;
+  width: 1920px;
+
+}
+
+.head-welcome {
+  position: relative;
+  min-height: 1080px;
+  background-image: url(../img/block-1/bg-image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.head-welcome::after {
+  content: "";
+  width: 45px;
+  height: 67px;
+  position: absolute;
+  background-image: url(../img/block-1/mouse-icon.png);
+  background-repeat: no-repeat;
+  bottom: 85px;
+  left: 50%;
+  cursor: pointer;
+}
 
 
+.inner {
+  padding: 0;
+  margin: 0 auto;
+  width: 1535px;
+}
 
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 117px;
+}
 
+.menu-logo {
+  padding: 0;
+  margin: 0;
+  font-size: 30px;
+  text-transform: uppercase;
+  letter-spacing: 0.125em;
+  color: #ededed;
+}
 
+.menu-page {
+  display: flex;
+  position: relative;
+  margin-bottom: 382px;
+}
+
+.menu-page-text {
+  padding: 0;
+  margin: 0;
+  font-family: 'Raleway-SemiBold';
+  font-size: 24px;
+  text-transform: uppercase;
+  letter-spacing: 0.125em;
+  color: #ededed;
+  padding-right: 35px;
+}
+
+.sandwich {
+  position: absolute;
+  top: 3px;
+  right: 0;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  background: transparent;
+  border: 0px;
+}
+
+.sandwich div {
+  height: 0px;
+  border: 1.5px solid #fff;
+  width: 22px;
+  display: block;
+  position: absolute;
+  background:#fff;
+}
+
+.first-line {
+  top: 0px;
+}
+
+.two-line {
+  top: 8px;
+}
+
+.three-line {
+  top: 16px;
+}
+
+.block-title {
+  text-align: right;
+}
+
+.block-title h2 {
+  font-size: 48px;
+  text-transform: uppercase;
+  letter-spacing: 0.125em;
+  color: #ededed;
+  margin-bottom: 29px;
+}
+
+.statement {
+  padding: 0;
+  margin: 0;
+  margin-left: auto;
+  width: 430px;
+}
+
+.statement-text {
+  margin: 0;
+  font-family: 'Raleway-Regular';
+  font-size: 24px;
+  line-height: 40px;
+  letter-spacing: 0.125em;
+  color: #ededed;
+}
+
+.statement-autor {
+  font-family: 'Raleway-Regular';
+  font-size: 18px;
+  line-height: 40px;
+  font-weight: 300;
+  font-style: italic;
+  letter-spacing: 0.125em;
+  color: #ededed;
+}
+
+.head-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 82px;
+}
+
+.menu-logo--nav {
+  color: #1c1c1c;
+}
+
+.nav-list {
+  list-style: none;
+}

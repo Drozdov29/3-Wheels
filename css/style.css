@@ -249,12 +249,11 @@ body {
   margin-bottom: 17px;
 }
 
-.first-text {
+.head-text {
   padding: 0;
   margin: 0;
   font-family: 'Raleway-SemiBold';
   font-weight: 600;
-  text-transform: uppercase;
   letter-spacing: 0.125em;
   color: #3b3b3b;
   margin-bottom: 16px;
@@ -288,7 +287,7 @@ body {
   text-align: center;
 }
 
-.head-title-color {
+.statistics-title--color {
   padding-top: 95px;
   color: #ededed;
 }
@@ -305,6 +304,13 @@ body {
   display: flex;
   justify-content: space-between;
   text-align: center;
+}
+
+.statistics-text--color {
+  font-size: 18px;
+  font-weight: 600;
+  color: #ededed;
+  margin-bottom: 80px;
 }
 
 .statistics-number {
@@ -325,4 +331,73 @@ body {
   font-weight: 600;
   text-transform: uppercase;
   color: #ededed;
+}
+
+/* --------------- statistics  end--------------- */
+/* --------------- products  start--------------- */
+
+.products {
+  min-height: 1054px;
+}
+
+.products-container {
+  width: 1345px;
+  margin: 0 auto;
+  text-align: center;
+}
+  
+.products-title--size {
+  padding: 0;
+  margin: 0;
+  padding-top: 52px;
+  margin-bottom: 18px;
+}
+
+.products-text--size {
+  margin-bottom: 40px;
+}
+
+.product-block {
+  margin-bottom: 30px;
+}
+
+.product-color {
+  padding: 0;
+  margin: 0;
+  font-family: 'Raleway-SemiBold';
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.125em;
+  color: #3b3b3b;
+  margin-bottom: 15px;
+}
+
+.product-price {
+  padding: 0;
+  margin: 0;
+  font-family: 'Raleway-SemiBold';
+  font-size: 30px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.125em;
+  color: #3b3b3b;
+  margin-bottom: 20px;
+}
+
+.product-more {
+  font-family: 'Raleway-SemiBold';
+  font-weight: 600;
+  text-decoration: underline;
+  letter-spacing: 0.125em;
+  color: #3b3b3b;
+}
+
+.product {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
 }

@@ -128,7 +128,7 @@ body {
   border: 0px;
 }
 
-.header-page-sandwich div {
+.header-page-sandwich span {
   height: 0px;
   border: 1.5px solid #fff;
   width: 22px;
@@ -137,7 +137,7 @@ body {
   background:#fff;
 }
 
-.header-page-sandwich:hover div {
+.header-page-sandwich:hover span {
   border: 1.5px solid  red;
 }
 
@@ -357,7 +357,7 @@ body {
   margin-bottom: 40px;
 }
 
-.product-block {
+.product-inner {
   margin-bottom: 30px;
 }
 
@@ -400,4 +400,160 @@ body {
   justify-content: space-between;
   text-align: center;
   align-items: center;
+}
+/* --------------- products  end--------------- */
+/* --------------- team  start--------------- */
+
+.team {
+  min-height: 530px;
+  background-color: #ededed;
+  text-align: center;
+}
+
+.team-container {
+  width: 1187px;
+  margin: 0 auto;
+}
+
+.team-title--size {
+  padding-top: 51px;
+}
+
+.team-text--size {
+  margin-bottom: 50px;
+}
+
+.team-member {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.team-name {
+  padding: 0;
+  margin: 0;
+  font-size: 30px;
+  text-transform: uppercase;
+  letter-spacing: 0.125em;
+  color: #1e1e1e;
+  padding-top: 34px;
+  margin-bottom: 24px;
+}
+
+.team-prof {
+  font-family: 'Raleway-SemiBold';
+  text-transform: uppercase;
+  letter-spacing: 0.125em;
+  color: #1e1e1e;
+}
+
+/* --------------- team  end--------------- */
+/* --------------- showcase  start--------------- */
+.showcase {
+  min-height: 710px;
+}
+
+.showcase-container {
+  width: 1540px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.showcase-title--size {
+  padding-top: 65px;
+}
+
+.showcase-text--size {
+  margin-bottom: 53px;
+}
+
+.showcase-image {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 66px;
+}
+
+.showcase-instagram {
+  font-size: 24px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.125em;
+  color: #3b3b3b;
+}
+
+.showcase-instagram--link {
+  text-decoration: underline;
+  color: #1e1e1e;
+}
+
+/* --------------- showcase  end--------------- */
+/* --------------- footer  start--------------- */
+
+.footer {
+  min-height: 656px;
+  background-color: #1e1e1e;
+}
+
+.footer-container {
+  width: 1345px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.footer-title--color {
+  padding-top: 58px;
+  color: #ededed;
+  margin-bottom: 144px;
+}
+
+.footer-contact {
+  display: flex;
+  justify-content: space-between;
+}
+
+.quick-link h4 {
+  padding: 0;
+  margin: 0;
+  font-family: 'Raleway-Black';
+  text-transform: uppercase;
+  letter-spacing: 0.125em;
+  color: #ededed;
+  margin-bottom: 30px;
+  text-align: left;
+}
+
+.quick-list {
+  list-style: none;
+  text-align: left;
+  padding: 0;
+  margin: 0;
+}
+
+.quick-link {
+  font-family: 'Raleway-SemiBold';
+  text-transform: uppercase;
+  letter-spacing: 0.125em;
+  color: #ededed;
+  text-decoration: none;
+}
+
+.quick-item:not(:last-child) {
+  margin-bottom: 17px;
+}
+
+.social {
+  text-align: left;
+}
+
+.social a:not(:last-child){
+  padding-right: 10px;
+}
+
+.iframe {
+  opacity: 0.5;
+}
+
+.iframe:hover {
+  opacity: 1;
 }
